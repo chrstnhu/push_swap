@@ -36,7 +36,6 @@ void	free_argv(t_stack **a, char **argv, bool argc_2);
 void	ft_free(t_stack **a);
 void	ft_free_split(char **split_argv);
 void	ft_lstclear(t_stack **lst);
-char	**ft_split(char *s, char c);
 
 //----- UTILS -----
 

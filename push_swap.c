@@ -42,10 +42,7 @@ int	main(int argc, char **argv)
 	a = NULL;
 	b = NULL;
 	if (argc == 1 || (argc == 2 && !argv[1][0]))
-	{
-		write(1, "Error\n", 6);
 		return (1);
-	}
 	else if (argc == 2)
 	{
 		split_argv = ft_split(argv[1], ' ');
